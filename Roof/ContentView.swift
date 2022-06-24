@@ -13,12 +13,13 @@ struct ContentView: View {
             Circle()
                 .foregroundColor(.yellow)
             VStack {
-                Text("Roof")
+                Text("Bicycle")
                     .bold()
                     .padding()
                     .foregroundColor(.white)
-                Image(systemName: "house.fill")
+                Image(systemName: "bicycle")
                     .resizable()
+                    .aspectRatio(contentMode: .fit)
                     .foregroundColor(.green)
                     .frame(width: 200, height: 200, alignment: .center)
             }
