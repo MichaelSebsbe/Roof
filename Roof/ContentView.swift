@@ -11,16 +11,16 @@ struct ContentView: View {
     var body: some View {
         ZStack{
             Circle()
-                .foregroundColor(.yellow)
+                .foregroundColor(.red)
             VStack {
-                Text("Bicycle")
+                Text("PIP")
                     .bold()
                     .padding()
                     .foregroundColor(.white)
-                Image(systemName: "bicycle")
+                Image(systemName: "car.fill")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .foregroundColor(.green)
+                    .foregroundColor(.yellow)
                     .frame(width: 200, height: 200, alignment: .center)
             }
         }
